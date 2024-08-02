@@ -9,7 +9,7 @@ export default function OffersLink() {
 //     }
   return (<>
 
-  <div  className='cursor-pointer h-[280px] xl:w-11/12 mx-auto bg-cover my-[60px] bg-[url(../src/components/asserts/PNG/offersLink.png)] xl:rounded-xl'>
+  <div  className='cursor-pointer h-[280px] xl:w-11/12 mx-auto bg-cover my-[60px] bg-[url(../src/asserts/PNG/offersLink.png)] xl:rounded-xl'>
  <div className=' md:w-[580px]  sm:ml-16 pt-[40px] ml-[20px]'>
     <p className='text-white sm:text-3xl text-2xl roboto-medium '>
     Discover our exceptional hotel deals now and enjoy a luxurious stay at the lowest prices

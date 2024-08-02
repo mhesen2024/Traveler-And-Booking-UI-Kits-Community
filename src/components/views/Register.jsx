@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import googleIcon from '../asserts/PNG/google-icon.png'; 
+import googleIcon from '../../asserts/PNG/google-icon.png'; 
 import Logo from './Logo';
 
 export default function Register() {
