@@ -9,11 +9,14 @@ export default function Footer() {
             <ItemContiner />
 
         </div>
-        <div className='container   bg-[#EBEBEB]   h-[40px] '>
-        
-            <p className='roboto-regular text-[#4F4F4F] py-[10px] ml-[1083px] mt-[60px] '> ©  my Dream Place 2022</p>
-        
+
+        <div className="p-4 bg-[#EBEBEB] h-[40px] ">
+          <div className="flex flex-col md:flex-row justify-start md:justify-center lg:justify-end items-start md:items-center lg:items-end">
+            <p className=" roboto-regular  text-[#4F4F4F]  py-auto mr-[250px] "> ©  my Dream Place 2022</p>
+            
+          </div>
         </div>
+        
     </footer>
   )
 }
