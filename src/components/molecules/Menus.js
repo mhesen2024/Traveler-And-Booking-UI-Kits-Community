@@ -12,8 +12,7 @@ export const Explore = [
     {name:'United State American (USA)'   , link: '#'},
     {name:'Greece'   , link: '#'},
     {name:'Maldives'   , link: '#'},
-    {name:'Singapore'   , link: '#'},
-    {name:'see more'   , link: '#'}
+    {name:'Singapore'   , link: '#'}
 
 ] ;
 export const Terms  = [
