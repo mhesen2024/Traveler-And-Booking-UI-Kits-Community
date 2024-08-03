@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'
 import NavLinks from '../molecules/NavLinks';
-import Logo from '../views/Logo';
+import Logo from '../../views/Logo';
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
