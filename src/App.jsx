@@ -6,6 +6,8 @@ import CheckOut from './components/views/CheckOut';
 
 
 
+
+
 export default function App() {
   return (
     <>
@@ -13,6 +15,7 @@ export default function App() {
       
 
       <RouterProvider router={router} />
+      <CheckOut />
       </>
 );
 }
