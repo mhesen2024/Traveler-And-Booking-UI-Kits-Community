@@ -1,8 +1,8 @@
     import React, { useState } from 'react';
-    import visa from '../asserts/PNG/visa.png';
-    import mastercard from '../asserts/PNG/mastercard.png';
-    import express from '../asserts/PNG/express.png';
-    import discover from '../asserts/PNG/discover.png';
+    import visa from '../../asserts/PNG/visa.png';
+    import mastercard from '../../asserts/PNG/mastercard.png';
+    import express from '../../asserts/PNG/express.png';
+    import discover from '../../asserts/PNG/discover.png';
 
     const CheckOut = () => {
     const [formData, setFormData] = useState({
@@ -267,6 +267,8 @@
     };
 
     export default CheckOut;
+
+
 
 
 
