@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 export default function Item({links , title }) {
@@ -8,7 +9,7 @@ export default function Item({links , title }) {
     {
         links.map((link)=> (
             <li  key ={links.name }> 
-                <a className='text-[#4F4F4F] roboto-regular text-[14px] hover:underline hover:decoration-blue-500 '  href={links.link}>{link.name}</a>
+                <Link className='text-[#4F4F4F] roboto-regular text-[14px] hover:underline hover:decoration-blue-500 '  to={links.link}>{link.name}</Link>
             </li>
         ))
     }
