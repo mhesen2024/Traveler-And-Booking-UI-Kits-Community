@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import './Navbar.css'
 import NavLinks from '../molecules/NavLinks';
 import Logo from '../../views/Logo';
-import profilePictureUrl from '../../asserts/profile-picture-url.png'
+//import profilePictureUrl from '../../asserts/profile-picture-url.png' 
+import profilePic from '../../asserts/PNG/profile-picture-url.png'
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -42,7 +43,8 @@ function Navbar() {
               <i className="fa fa-bell text-[#2F80ED] fa-xl"></i>
             </div>
             <div className="profile">
-            <img src={profilePictureUrl} alt="Profile" className="rounded-full w-[40px] h-[40px]" />
+            <img src={profilePic } alt="Profile" className="rounded-full w-[40px] h-[40px]" />
+           {/*  <img src={profilePictureUrl} alt="Profile" className="rounded-full w-[40px] h-[40px]" /> */}
             </div>
           </div>
         </>
