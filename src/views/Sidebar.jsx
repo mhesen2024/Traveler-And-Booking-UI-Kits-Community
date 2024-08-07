@@ -14,12 +14,6 @@ export default function Sidebar() {
         <Rating />
         <Category />
         <Activities />
-
-
-
-        
-        
-      
     </div>
   )
 }
