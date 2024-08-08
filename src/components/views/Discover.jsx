@@ -1,8 +1,9 @@
-
+import CheckOut from "./CheckOut"
 export default function Discover() {
   return (
     <div>
-      4
+      
+      <CheckOut />
     </div>
   )
 }
