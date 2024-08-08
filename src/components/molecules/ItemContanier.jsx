@@ -10,7 +10,7 @@ export default function ItemContiner() {
     <div className=' container flex text-left item-center   '> 
         <div className=' ml-[100px]'>
          <Logo />  
-         <a className='text-[#4F4F4F] roboto-regular text-[14px] hover:underline hover:decoration-blue-500 '>Your next goto companion for travel</a>
+         <a className='text-[#4F4F4F] roboto-regular text-[14px] '>Your next goto companion for travel</a>
         </div>
           
         <div className=' grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-[50px]  ml-[90px]  '>   
