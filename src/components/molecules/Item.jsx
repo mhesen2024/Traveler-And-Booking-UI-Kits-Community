@@ -8,7 +8,7 @@ export default function Item({links , title }) {
     <h1 className='mb-1 roboto-medium font-bold  text-[16px] hover:underline hover:decoration-blue-500 '>{title }</h1>
     {
         links.map((link)=> (
-            <li  key ={links.name }> 
+            <li  key={link.name}> 
                 <Link className='text-[#4F4F4F] roboto-regular text-[14px] hover:underline hover:decoration-blue-500 '  to={links.link}>{link.name}</Link>
             </li>
         ))
