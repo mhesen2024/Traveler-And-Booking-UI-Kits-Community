@@ -36,13 +36,13 @@ const router = createBrowserRouter([
         element: <Discover />
       },
 
+      {
+        path: '*',
+        element: <NotFound />
+      },
      
       
     ]
-  },
-  {
-    path: '*',
-    element: <NotFound />
   },
   {
     path: 'register',
